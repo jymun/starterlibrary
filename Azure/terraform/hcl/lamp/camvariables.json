@@ -49,6 +49,10 @@
           {
               "value": "West Central US",
               "label": "West Central US"
+          },
+          {
+              "value": "Korea Central",
+              "label": "Korea Central"
           }
         ]
     },
