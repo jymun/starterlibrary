@@ -168,7 +168,7 @@ resource "azurerm_virtual_machine" "web" {
   location              = "${var.azure_region}"
   resource_group_name   = "${azurerm_resource_group.default.name}"
   network_interface_ids = ["${azurerm_network_interface.web.id}"]
-  vm_size               = "Standard_A2"
+  vm_size               = "D2s_v3"
   tags                  = "${module.camtags.tagsmap}"
 
   storage_image_reference {
@@ -207,7 +207,7 @@ resource "azurerm_virtual_machine" "web-alternative" {
   location              = "${var.azure_region}"
   resource_group_name   = "${azurerm_resource_group.default.name}"
   network_interface_ids = ["${azurerm_network_interface.web.id}"]
-  vm_size               = "Standard_A2"
+  vm_size               = "D2s_v3"
   tags                  = "${module.camtags.tagsmap}"
 
   storage_image_reference {
