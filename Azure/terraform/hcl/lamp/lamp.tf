@@ -1,4 +1,4 @@
-v#################################################################
+#################################################################
 # Terraform template that will deploy LAMP in Microsoft Azure
 #    * Virtual Machine - Ubuntu 16.04, Apache 2 and PHP 7.0
 #    * SQL Server v12 Database Service
